@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ayarlar</title>
+</head>
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    background-color: #96D4D4;
+  }
+
+  ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #703434;
+  }
+</style>
+
+
+<body>
+    <nav>
+        <ul>
+          <li><a href="Anasayfa.html">Anasayfa</a></li>
+          <li><a href="2210206265.html"> kişiselbilgilerim</a></li>
+          <li><a href="ayarlar.html"> Ayarlar</a></li>
+          
+        </ul></nav>
+
+  <h1>Ayarlar</h1>
+  <h2>Gece / Gündüz Modu</h2>
+<button onclick="geceModuAc()">Gece Modu</button>
+<button onclick="gunduzModuAc()">Gündüz Modu</button>
+
+
+<h2>Müzik Kontrol</h2>
+<button onclick="muzikBaslat()">Müziği Başlat</button>
+<button onclick="muzikDurdur()">Müziği Durdur</button>
+
+<br><br>
+<label for="sesSlider">Ses: </label>
+<input type="range" id="sesSlider" min="0" max="100" value="100" onchange="sesiAyarla(this.value)">
+
+  <script src="script.js"></script>
+</body>
+</html>

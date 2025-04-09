@@ -5,8 +5,7 @@
 <title>Ozgecmis</title>
 
 <style>
- 
-  table,
+   table,
   th,
   td {
     border: 1px solid white;
@@ -18,29 +17,30 @@
     background-color: #96D4D4;
   }
 
-  ul a{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1900ff;
-  }
+  .menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
 
-  li a {
-    float: left;
-  }
+.menu li {
+  float: left;
+}
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
 
-  li a:hover {
-    background-color: #703434;
-  }h1,h2{
+.menu li a:hover {
+  background-color: #703434;
+}
+h1,h2{
 color: red;}
 
 
@@ -63,13 +63,14 @@ color: red;}
 
 </head>
 
-<body style="background-color:whitesmoke; font-size: x-large;">
-  <ul id="a">
-    <li id="a"><a href="Anasayfa.html">Anasayfa</a></li>
-    <li id="a"><a href="2210206265.html"> kişiselbilgilerim</a></li>
-    <li id="a"><a href="ayarlar.html"> Ayarlar</a></li>
+<body style="background-color:rgb(255, 255, 255)">
+ 
+  <ul class="menu">
+    <li id="c"><a href="Anasayfa.html">Anasayfa</a></li>
+    <li id="c"><a href="2210206265.html"> kişiselbilgilerim</a></li>
+    <li id="c"><a href="ayarlar.html"> Ayarlar</a></li>
     
-  </ul><br>
+  </ul><br><br>
   <div class="gorsel">
     <img src="cv.jpg" alt="" height="300" width="300" style="margin: auto;"> 
   </div>
@@ -83,12 +84,13 @@ color: red;}
     <h2>EGITIM</h2>
     <p>2022-  Karabuk universitesi bilgisayar muhendisligi ogrencisi 3. sinif ogrencisi</p>
     <h2> BECERILER</h2>
-    <ul>
+    <ol>
     <li>Orta duzeyde c  </li> <li> Nesne yonelimli proglamlama ve veri yapilari</li><li>Takim calismalari</li><li>Analitik zeka
-    </li><li>Zaman yonetimi</li></p></ul>
+    </li><li>Zaman yonetimi</li></p></ol>
     <h2> ILETISIM</h2>
     <p>2210206265@ogrenci.karabuk.edu.tr</br> adilaydin1661@gmail.com</p>
-    
+    <script src="script.js"></script>
+
     
 </body>
 </html> 
